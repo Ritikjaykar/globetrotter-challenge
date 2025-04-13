@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "backend",
   "version": "1.0.0",
   "description": "",
@@ -11,13 +12,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
+  "_comment": "Removed 'type: module' to allow CommonJS",
   "dependencies": {
     "backend": "file:",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
-    "mongoose": "^8.13.2"
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "mongoose": "^8.13.2",
+    "openai": "^4.93.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
